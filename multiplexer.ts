@@ -21,7 +21,8 @@ namespace multiplexer {
      /**
      * TODO: 获取版本
      */
-    //% block="Select Port"
+    //% block="Select Port %port"
+    //% port.min=0 x.port=7
     //% weight=93
     export function selectPort(port:number) {
         //pins.i2cWriteNumber(I2CAddr, (1 << port) & 0xFF, NumberFormat.Int8LE);
