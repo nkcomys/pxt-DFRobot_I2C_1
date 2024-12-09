@@ -1,5 +1,5 @@
 enum MyAddr{
-    //% block="0X19"
+    //% block="0x70"
     ADDR = 0x70,
 }
 
