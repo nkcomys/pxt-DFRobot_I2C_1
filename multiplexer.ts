@@ -25,8 +25,8 @@ namespace multiplexer {
     //% port.min=0 port.max=7
     //% weight=93
     export function selectPort(port:number) {
-        //pins.i2cWriteNumber(I2CAddr, (1 << port) & 0xFF, NumberFormat.Int8LE);
-        pins.i2cWriteBuffer(I2CAddr, (1 << port) & 0xFF);
+        pins.i2cWriteNumber(I2CAddr, (1 << port) & 0xFF, NumberFormat.UInt8LE);
+        //pins.i2cWriteBuffer(I2CAddr, (0x00000001 << port));
     }
     
 }

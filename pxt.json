@@ -1,6 +1,6 @@
 {
     "name": "DFRobot_I2C_Multiplexer",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "",
     "license": "MIT",
     "dependencies": {
