@@ -1,0 +1,17 @@
+{
+    "name": "DFRobot_I2C_Multiplexer-strings",
+    "version": "0.1.0",
+    "description": "",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "multiplexer.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
